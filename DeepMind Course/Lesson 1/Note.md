@@ -60,4 +60,4 @@ $q(s, a)= E[G_t|S_t=s, A_t=a]=E[R_{t+1}+R_{t+2}+R_{t+3}+...|S_t=s, A_t=a]$
     - Agent state
     - Policy
     - Value function estimate
-    -Model
+    - Model
