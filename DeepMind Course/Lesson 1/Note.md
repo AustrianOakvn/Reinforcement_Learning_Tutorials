@@ -42,3 +42,22 @@ $v(s)=E[R_{t+1}+v(S_{t+1})|S_t=s]$
 - Actions may have long term consequences
 - Reward may be delayed
 - It may be better to sacrifice immediate reward to gain more long-term reward
+
+- A mapping from states to actions is called **policy**
+
+## Action values
+
+- It is also possible to condition the value on actions:
+
+$q(s, a)= E[G_t|S_t=s, A_t=a]=E[R_{t+1}+R_{t+2}+R_{t+3}+...|S_t=s, A_t=a]$
+
+
+## Core concepts
+
+- **Environment** (dynamics of the problem)
+- **Reward** signal (specifies the goal)
+- **Agent**, containing:
+    - Agent state
+    - Policy
+    - Value function estimate
+    -Model
